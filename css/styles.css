@@ -1,0 +1,159 @@
+body{
+    width:100%;
+    margin:0;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Langar', cursive;
+    font-family: 'Sniglet', cursive;
+}
+/* div{
+    background-color: #bedcfa;
+} */
+
+h1{
+    margin: 0;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    margin: 3.12rem auto 0 auto;
+    /* line-height: 2; */
+}
+
+h2{
+    margin-top: 10px;
+    color: #66BFBF;
+    font-family: 'Sniglet', cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    color:#11999E;
+}
+
+p{
+    font-size: 1.0rem;
+}
+
+hr{
+    margin: 80px auto;
+    border-style: none;
+    border-color: rgb(228, 227, 227);
+    border-top-style: dotted;
+    border-width: 6px;
+    width:4%;
+  }
+
+a{
+    color:#11999E;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.top-container{
+    /* height:200px;*/
+    width:100%;
+    background-color: #bedcfa;
+    /* padding: 10%; */
+    padding-top:100px;
+    position: relative;
+}
+
+.pro-img{
+    margin-top: 2rem;
+    width:15%;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 80px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.img-html{
+    /* width :20.6rem;
+    height:10.6rem; */
+    width: 25%;
+    float:left;
+    margin-right: 30px;
+}
+
+.img-css{
+    /* width :20.6rem;
+    height:10.6rem; */
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+}
+
+.middle-container{
+    /* margin: 30px; */
+    background-color: #eff8ff
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    width: 100%;
+    margin: 0;
+    padding-top:3rem ;
+    padding-bottom: 1rem;
+}
+
+.con-mess{
+    width: 40%;
+    margin: auto;
+}
+
+.top-cloud{
+    position: absolute;
+    right:15%;
+    top:10%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:20%;
+    bottom:40%;
+}
+
+.btn {
+    margin: 30px;
+    background: #3D94F6;
+    border-radius: 11px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    height: 1px;
+    line-height: 1px;
+    width: 7.5rem;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 18px;
+    /* box-shadow: 1px 1px 20px 1px #000000; */
+    text-shadow: 1px 3px 40px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.footer-link{
+    margin: 0rem 1rem;
+    text-decoration: none;
+}
+
+.footer-p{
+    color: #EAF6F6;
+    margin-top: 2rem;
+}
